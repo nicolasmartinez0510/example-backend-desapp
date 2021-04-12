@@ -13,5 +13,5 @@ script:
 - gradle check
 deploy:
   provider: heroku
-  api_key:
-    secure: VLy/1mK+6GtfBwUI9YHFbA/z74jjR3SaJjgM/aDKN1fnHQoMbTB4LxKwFvskb0QlCL4dgM706LCzcDP7ysWCYYM7Cp+Jn5A9YJNSrDc38FlPKotDgjwKrDhWb7sCTA/Q/n/T1iDTAIz5WYfLBmR216/hLDVgy7/Knh/i4aqh2WeeHYyCx+35Yo6OnpdgS8grjXuDDs0JpH7tOei+FP09+nANHGB4uU4a/k2FQuFMqFD83lGp0D3tc1Ky4JVEnz5UoVw27iLLAZU6EUN4gindR69hmTxAP4TuSZ3ezQkxI+N8PGtuij0+K0K6D/Qe126nL2lW8y5bn7uSdqTY5yJ5bQ+HV2pe4Wi01y32LPi5GrZvg+mMo0NPKYKOllvjzXhbO0KCJcpG5nzJ+UhGRzY0NueZFzW/OJNmLIdpDnKSvtBn/U4zbuGzKyKa6vFAT6plpphi/k2ar2NOvuUj0uJN18E9SCcM7vTmwty6xQWN5CCUz28NZDsPAWymcku4Bqh7zAYlEWM1ZILJfow7l19Ss7rY1rtKMLdLzmmR8GME1kpZLYmw2e25XLOKn/m0DZCNVG+RtR/gUmKrU2k7ubGwyooU7ntkdzOBOILMOuZ8g/AWXDmptHr3kl47csdQIuIM5LRx7zBskF4kDqMB0fHMUhIhe9vNDS63hg9V2NpvsPI=
+  api_key: d6866b7b-bfd9-4a6a-aaff-595592f4122f
+  app: backend-desapp
