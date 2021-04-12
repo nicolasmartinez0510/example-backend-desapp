@@ -1,0 +1,5 @@
+language: kotlin
+services:
+  - mysql
+jdk:
+  - oraclejdk9

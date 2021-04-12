@@ -7,13 +7,27 @@ plugins {
 	kotlin("jvm") version "1.4.31"
 	kotlin("plugin.spring") version "1.4.31"
 	kotlin("plugin.jpa") version "1.4.31"
+	idea
+	eclipse
 }
+
+//eclipseJdt {
+//	doLast {
+//		ant.propertyfile(file: ".settings/org.eclipse.core.resources.prefs") {
+//		ant.entry(key: "eclipse.preferences.version", value: "1")
+//		ant.entry(key: "encoding/<project>", value: "utf-8")
+//	}
+//	}
+//}
+
 
 group = "ar.edu.unq.desapp.grupoN"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
+	mavenLocal()
+	jcenter()
 	mavenCentral()
 }
 
