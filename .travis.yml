@@ -1,16 +1,15 @@
-language: kotlin
-services:
-- mysql
+language: java
+
 jdk:
-- oraclejdk9
+  - openjdk8
+
 before_install:
-- wget https://services.gradle.org/distributions/gradle-6.6.1-bin.zip
-- unzip gradle-6.6.1-bin.zip
-- export GRADLE_HOME=$PWD/gradle-6.6.1
-- export PATH=$GRADLE_HOME/bin:$PATH
-- gradle wrapper
+  - chmod +x gradlew
+
 script:
-- gradle check
+  - ./gradlew compileJava
+  - ./gradlew compileTestJava
+  - ./gradlew test
 deploy:
   provider: heroku
   api_key: d6866b7b-bfd9-4a6a-aaff-595592f4122f
